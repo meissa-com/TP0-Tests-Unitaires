@@ -1,4 +1,4 @@
-package org.example.exercice3;
+package org.example.TP0;
 
 public class Fibonacci {
     public static int fibonacci(int n) {

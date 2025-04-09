@@ -1,6 +1,6 @@
-package exercice5;
+package TP0;
 
-import org.example.exercice5.Factorial;
+import org.example.TP0.Factorial;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

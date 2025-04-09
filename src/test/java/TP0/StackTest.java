@@ -1,6 +1,6 @@
-package exercice2;
+package TP0;
 
-import org.example.exercice2.Stack;
+import org.example.TP0.Stack;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

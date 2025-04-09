@@ -1,4 +1,4 @@
-package org.example.exercice5;
+package org.example.TP0;
 
 public class Factorial {
     public static int factorial(int n) {

@@ -1,4 +1,4 @@
-package org.example.exercice2;
+package org.example.TP0;
 
 public class Stack {
     private int[] array;

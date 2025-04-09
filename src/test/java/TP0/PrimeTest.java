@@ -1,6 +1,6 @@
-package exercice4;
+package TP0;
 
-import org.example.exercice4.Prime;
+import org.example.TP0.Prime;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
