@@ -1,4 +1,4 @@
-package org.example.TP1.entité;
+package org.example.TP1;
 
 public class QuadraticEquation {
     public static double[] solve(double a, double b, double c) {

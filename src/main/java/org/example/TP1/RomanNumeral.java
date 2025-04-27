@@ -1,4 +1,4 @@
-package org.example.TP1.entité;
+package org.example.TP1;
 public class RomanNumeral {
     public static String toRoman(int n) {
         if (n < 1 || n > 3999) {

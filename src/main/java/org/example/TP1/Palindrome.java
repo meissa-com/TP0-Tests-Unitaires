@@ -18,7 +18,6 @@ public class Palindrome {
         return true;
     }
 }
-git add .
 
 /*
 ---------------------------------------------------

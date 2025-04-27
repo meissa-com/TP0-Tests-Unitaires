@@ -1,6 +1,6 @@
 package TP1;
 
-import org.example.TP1.entité.RomanNumeral;
+import org.example.TP1.RomanNumeral;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;

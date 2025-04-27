@@ -1,4 +1,4 @@
-package org.example.TP1.entité;
+package org.example.TP1;
 
 public class FizzBuzz {
     public static String fizzBuzz(int n) {

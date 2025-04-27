@@ -1,6 +1,6 @@
 package TP1;
 
-import org.example.TP1.entité.QuadraticEquation;
+import org.example.TP1.QuadraticEquation;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

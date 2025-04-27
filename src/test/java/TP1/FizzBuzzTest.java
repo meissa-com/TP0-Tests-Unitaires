@@ -1,6 +1,6 @@
 package TP1;
 
-import org.example.TP1.entité.FizzBuzz;
+import org.example.TP1.FizzBuzz;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
