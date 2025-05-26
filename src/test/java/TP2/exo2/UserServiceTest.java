@@ -1,10 +1,15 @@
 package TP2.exo2;
 
+import org.example.tp2.exo2.ServiceException;
+import org.example.tp2.exo2.UserService;
+import org.example.tp2.exo2.Utilisateur;
+import org.example.tp2.exo2.UtilisateurApi;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 

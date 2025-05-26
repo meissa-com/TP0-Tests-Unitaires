@@ -1,11 +1,16 @@
 package TP2.exo3;
 
+import org.example.tp2.exo3.ServiceException;
+import org.example.tp2.exo3.UserService;
+import org.example.tp2.exo3.Utilisateur;
+import org.example.tp2.exo3.UtilisateurApi;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 

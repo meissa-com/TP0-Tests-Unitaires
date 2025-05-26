@@ -1,11 +1,13 @@
 package tp4;
 
 
+import org.example.tp4.taskmanager.TaskManagerApplication;
 import org.example.tp4.taskmanager.model.Task;
 import org.example.tp4.taskmanager.service.TaskService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.testcontainers.containers.MySQLContainer;
@@ -14,10 +16,9 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-@DataJpaTest
+@SpringBootTest(classes = TaskManagerApplication.class)
 @Testcontainers
 public class TaskControllerIntegrationTest {
 
